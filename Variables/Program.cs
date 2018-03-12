@@ -21,6 +21,14 @@ namespace Variables
             Console.WriteLine("Hi {0} your are {1} and your score is {2}", name, age, score);
             Console.WriteLine(BuyFood(hungry, letter));
             Console.ReadLine();
+            //Implicit types 
+            var cold = false;
+            var grade = 'B';
+            var state = "California";
+            var number = 12;
+            var pi = 3.14;
+
+
 
         }
         static int IncreaseAge(int age)
