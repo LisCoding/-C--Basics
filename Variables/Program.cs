@@ -27,7 +27,9 @@ namespace Variables
             var state = "California";
             var number = 12;
             var pi = 3.14;
-
+            Console.WriteLine("these are implicit types {0} {1} {2} {3} {4}", cold, grade, number, pi, state
+            );
+            Console.ReadLine();
 
 
         }
