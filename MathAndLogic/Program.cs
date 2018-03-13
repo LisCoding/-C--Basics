@@ -20,6 +20,7 @@ namespace MathAndLogic
             Console.WriteLine(EvenNumber(x));
             Console.WriteLine(DivisibleByThree(y));
             Console.WriteLine(RoundNumber(3.4579));
+            DoublesToInt();
 
           
         }
@@ -59,6 +60,34 @@ namespace MathAndLogic
             double result = Math.Round(number, 3);
             return result;
         }
+
+        //Type Conversion Convert int to doubles 
+        static void DoublesToInt()
+        {
+            int score = 95;
+            int saving = 145;
+            int number = 45;
+
+
+            double money = 10.45;
+            double days = 7;
+            double c = 56.2;
+            //Store the integers in the doubles
+            days = (double)saving; // we do not need to cast int to double
+            
+            //We need to cast when converting from double to integer
+            score = (int)c;
+            number = (int)money;
+
+            Console.WriteLine("score is" + score);
+            Console.WriteLine("c is" + c);
+
+
+        }
+
+        
+
+
 
     }
 }
