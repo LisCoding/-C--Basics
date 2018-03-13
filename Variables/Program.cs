@@ -30,9 +30,10 @@ namespace Variables
             Console.WriteLine("these are implicit types {0} {1} {2} {3} {4}", cold, grade, number, pi, state
             );
             number = number + 1;
-            //we declare implicit variables C# will assigned the corresponding 
-            //Type and assign it to the variable ex: number is a int and we can't add a double
-            //number += 3.5; 
+            /*we declare implicit variables C# will assigned the corresponding 
+            Type and assign it to the variable ex: number is a int and we can't add a double
+            number += 3.5;
+            */
             Console.WriteLine("number has changed " + number);
             Console.ReadLine();
 
@@ -44,6 +45,13 @@ namespace Variables
             return age;
             
         }
+        /// <summary>
+        /// This method return a string according to 
+        /// to the condition 
+        /// </summary>
+        /// <param name="status"></param>
+        /// <param name="letter"></param>
+        /// <returns></returns>
         static string BuyFood(bool status, char letter)
         {
             if (status && letter == 'A')
