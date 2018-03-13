@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerType", "IntegerType\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operators", "Operators\Operators.csproj", "{FE70B5C9-C6F6-4FE8-B7E9-E0445E2FEB09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathAndLogic", "MathAndLogic\MathAndLogic.csproj", "{81310B85-2968-4D0F-8983-95F9968F31D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{FE70B5C9-C6F6-4FE8-B7E9-E0445E2FEB09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE70B5C9-C6F6-4FE8-B7E9-E0445E2FEB09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE70B5C9-C6F6-4FE8-B7E9-E0445E2FEB09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81310B85-2968-4D0F-8983-95F9968F31D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81310B85-2968-4D0F-8983-95F9968F31D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81310B85-2968-4D0F-8983-95F9968F31D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81310B85-2968-4D0F-8983-95F9968F31D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
