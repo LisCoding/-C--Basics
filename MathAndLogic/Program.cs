@@ -20,9 +20,7 @@ namespace MathAndLogic
             Console.WriteLine(EvenNumber(x));
             Console.WriteLine(DivisibleByThree(y));
             Console.WriteLine(RoundNumber(3.4579));
-            DoublesToInt();
-
-          
+            DoublesToInt();     
         }
 
 
@@ -81,13 +79,7 @@ namespace MathAndLogic
 
             Console.WriteLine("score is" + score);
             Console.WriteLine("c is" + c);
-
-
         }
-
-        
-
-
 
     }
 }
